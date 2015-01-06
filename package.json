@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A minimal generator for npm packages",
   "license": "MIT",
-  "main": "app/index.js",
+  "main": "index.js",
   "repository": "johnotander/generator-p",
   "author": {
     "name": "John Otander",
@@ -33,6 +33,7 @@
     "yosay": "^0.3.0"
   },
   "devDependencies": {
+    "camelize": "^1.0.0",
     "mocha": "*"
   },
   "peerDependencies": {

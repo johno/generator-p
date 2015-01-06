@@ -1,5 +1,23 @@
 {
-  "name": "package",
-  "version": "0.0.0",
-  "dependencies": {}
+  "name": "<%= packageName %>",
+  "author": "<%= name %>",
+  "version": "0.0.1",
+  "main": "index.js",
+  "test": "mocha test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= github %>/<%= packageName %>.git"
+  },
+  "keywords": [
+
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/<%= github %>/<%= packageName %>/issues"
+  },
+  "homepage": "https://github.com/<%= github %>/<%= packageName %>",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
 }
