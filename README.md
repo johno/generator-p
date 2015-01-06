@@ -2,7 +2,31 @@
 
 [![Build Status](https://secure.travis-ci.org/johnotander/generator-p.png?branch=master)](https://travis-ci.org/johnotander/generator-p)
 
-A minimal yeoman generator for npm packages.
+A minimal yeoman generator for npm packages. This is intended to cut out the majority of
+boilerplate required in creating a small npm module.
+
+This generator prompts you for your:
+
+  * Name
+  * Github username
+  * Twitter username
+  * Package name
+  * Package description
+
+Using the information to create thorough `package.json`, `index.js`, `LICENSE.md`, `test.js`,
+and `README.md` files with the following structure:
+
+```
+awesome-package/
+  - test/
+    - test.js
+  - .editorconfig
+  - .gitignore
+  - index.js
+  - LICENSE.md
+  - package.json
+  - README.md
+```
 
 ## Installation
 
@@ -15,6 +39,8 @@ npm install -g generator-p
 ```bash
 yo p
 ```
+
+You will then be prompted for some information that will be used to generate an npm package.
 
 ## License
 
