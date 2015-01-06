@@ -38,29 +38,27 @@ var PGenerator = yeoman.generators.Base.extend({
       this.someOption = props.someOption;
       this.name = props.name;
       this.github = props.github;
-      this.packageName = props.packageName;
+      this.packageName = props.packageName || 'p-package';
       this.camelizedPackageName = camelize(props.packageName);
       this.twitterHandle = props.twitterHandle;
+      this.description = props.description;
 
-      this.template('_README.md', 'README.md');
-      this.template('_LICENSE.md', 'LICENSE.md');
-      this.template('_package.json', 'package.json');
-      this.template('_index.js', 'index.js');
+      this.dest.mkdir(this.packageName)
 
-      this.dest.mkdir('test');
-      this.template('_test.js', 'test/test.js');
+      this.template('_README.md', this.packageName + '/README.md');
+      this.template('_LICENSE.md', this.packageName + '/LICENSE.md');
+      this.template('_package.json', this.packageName + '/package.json');
+      this.template('_index.js', this.packageName + '/index.js');
+
+      this.dest.mkdir(this.packageName + '/test');
+      this.template('_test.js', this.packageName + '/test/test.js');
+
+      this.src.copy('editorconfig', this.packageName + '/.editorconfig');
+      this.src.copy('gitignore', this.packageName + '/.gitignore');
 
       done();
     }.bind(this));
-  },
-
-  writing: {
-    projectfiles: function () {
-      this.src.copy('editorconfig', '.editorconfig');
-    }
-  },
-
-  end: function () {}
+  }
 });
 
 module.exports = PGenerator;
