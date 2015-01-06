@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/johnotander/generator-p.png?branch=master)](https://travis-ci.org/johnotander/generator-p)
 
-A minimal generator for npm packages.
+A minimal yeoman generator for npm packages.
 
 ## Installation
 

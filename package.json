@@ -1,7 +1,7 @@
 {
   "name": "generator-p",
   "version": "0.0.1",
-  "description": "A minimal generator for npm packages",
+  "description": "A minimal yeoman generator for npm packages",
   "license": "MIT",
   "main": "index.js",
   "repository": "johnotander/generator-p",
