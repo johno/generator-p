@@ -17,14 +17,15 @@ describe('p:app', function () {
       .on('end', done);
   });
 
-  it('creates files', function () {
+  it('creates the correct files', function () {
+
     assert.file([
       'package.json',
       '.editorconfig',
       'index.js',
       'README.md',
       'LICENSE.md',
-      'test.js'
+      'test/test.js'
     ]);
   });
 });
