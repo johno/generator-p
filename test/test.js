@@ -22,6 +22,7 @@ describe('p:app', function () {
     assert.file([
       'p-package/package.json',
       'p-package/.editorconfig',
+      'p-package/.travis.yml',
       'p-package/index.js',
       'p-package/README.md',
       'p-package/LICENSE.md',
