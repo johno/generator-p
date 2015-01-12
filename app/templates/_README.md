@@ -12,7 +12,7 @@ npm install --save <%= packageName %>
 
 ## Usage
 
-```bash
+```javascript
 // ...
 ```
 
