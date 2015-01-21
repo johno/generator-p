@@ -13,7 +13,9 @@ npm install --save <%= packageName %>
 ## Usage
 
 ```javascript
-// ...
+var <%= camelizedPackageName %> = require('<%= packageName %>');
+
+<%= camelizedPackageName %>();  // => true
 ```
 
 ## License
@@ -28,6 +30,6 @@ MIT
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Crafted with <3 by <%= name%> ([@<%= twitterHandle %>](https://twitter.com/<%= twitterHandle %>)).
+Crafted with <3 by <%= name %> ([@<%= twitterHandle %>](https://twitter.com/<%= twitterHandle %>)).
 
 This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git).
