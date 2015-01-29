@@ -42,7 +42,7 @@ var PGenerator = yeoman.generators.Base.extend({
       this.camelizedPackageName = camelize(props.packageName);
       this.twitterHandle = props.twitterHandle;
       this.description = props.description;
-      this.year = (new Date()).getYear();
+      this.year = (new Date()).getFullYear();
 
       this.dest.mkdir(this.packageName)
 
