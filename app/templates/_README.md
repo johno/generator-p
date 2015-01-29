@@ -32,4 +32,6 @@ MIT
 
 Crafted with <3 by <%= name %> ([@<%= twitterHandle %>](https://twitter.com/<%= twitterHandle %>)).
 
-This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git).
+***
+
+> This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git).
