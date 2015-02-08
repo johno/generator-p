@@ -1,6 +1,4 @@
-# <%= packageName %>
-
-[![Build Status](https://secure.travis-ci.org/johnotander/<%= packageName %>.png?branch=master)](https://travis-ci.org/johnotander/<%= packageName %>)
+# <%= packageName %> [![Build Status](https://secure.travis-ci.org/johnotander/<%= packageName %>.png?branch=master)](https://travis-ci.org/johnotander/<%= packageName %>)
 
 <%= description %>
 
