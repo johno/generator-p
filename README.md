@@ -34,6 +34,9 @@ awesome-package/
 npm install -g generator-p
 ```
 
+__Note:__ If you don't have [jshint](https://github.com/jshint/jshint) installed, you will have to
+install it globally with `npm install -g jshint`
+
 ## Usage
 
 ```bash
