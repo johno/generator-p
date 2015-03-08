@@ -44,20 +44,18 @@ var PGenerator = yeoman.generators.Base.extend({
       this.description = props.description;
       this.year = (new Date()).getFullYear();
 
-      this.dest.mkdir(this.packageName)
+      this.template('_README.md', 'README.md');
+      this.template('_LICENSE.md', 'LICENSE.md');
+      this.template('_package.json', 'package.json');
+      this.template('_index.js', 'index.js');
 
-      this.template('_README.md', this.packageName + '/README.md');
-      this.template('_LICENSE.md', this.packageName + '/LICENSE.md');
-      this.template('_package.json', this.packageName + '/package.json');
-      this.template('_index.js', this.packageName + '/index.js');
+      this.dest.mkdir('test');
+      this.template('_test.js', 'test/test.js');
 
-      this.dest.mkdir(this.packageName + '/test');
-      this.template('_test.js', this.packageName + '/test/test.js');
-
-      this.src.copy('editorconfig', this.packageName + '/.editorconfig');
-      this.src.copy('travis.yml', this.packageName + '/.travis.yml');
-      this.src.copy('gitignore', this.packageName + '/.gitignore');
-      this.src.copy('jshintrc', this.packageName + '/.jshintrc');
+      this.src.copy('editorconfig', '.editorconfig');
+      this.src.copy('travis.yml', '.travis.yml');
+      this.src.copy('gitignore', '.gitignore');
+      this.src.copy('jshintrc', '.jshintrc');
 
       done();
     }.bind(this));

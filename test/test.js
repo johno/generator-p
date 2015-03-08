@@ -20,13 +20,13 @@ describe('p:app', function () {
   it('creates the correct files', function () {
 
     assert.file([
-      'p-package/package.json',
-      'p-package/.editorconfig',
-      'p-package/.travis.yml',
-      'p-package/index.js',
-      'p-package/README.md',
-      'p-package/LICENSE.md',
-      'p-package/test/test.js'
+      'package.json',
+      '.editorconfig',
+      '.travis.yml',
+      'index.js',
+      'README.md',
+      'LICENSE.md',
+      'test/test.js'
     ]);
   });
 });
