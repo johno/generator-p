@@ -24,6 +24,7 @@
   "homepage": "https://github.com/<%= github %>/<%= packageName %>",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "jshint": "*"
   }
 }
