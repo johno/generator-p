@@ -40,7 +40,8 @@ install it globally with `npm install -g jshint`
 ## Usage
 
 ```bash
-yo p
+$ mkdir package-name && cd $_
+$ yo p
 ```
 
 You will then be prompted for some information that will be used to generate an npm package.
