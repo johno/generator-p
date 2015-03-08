@@ -57,6 +57,7 @@ var PGenerator = yeoman.generators.Base.extend({
       this.src.copy('editorconfig', this.packageName + '/.editorconfig');
       this.src.copy('travis.yml', this.packageName + '/.travis.yml');
       this.src.copy('gitignore', this.packageName + '/.gitignore');
+      this.src.copy('jshintrc', this.packageName + '/.jshintrc');
 
       done();
     }.bind(this));
