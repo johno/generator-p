@@ -1,6 +1,4 @@
-# generator-p
-
-[![Build Status](https://secure.travis-ci.org/johnotander/generator-p.png?branch=master)](https://travis-ci.org/johnotander/generator-p)
+# generator-p [![Build Status](https://secure.travis-ci.org/johnotander/generator-p.png?branch=master)](https://travis-ci.org/johnotander/generator-p)
 
 A minimal yeoman generator for npm packages. This is intended to cut out the majority of
 boilerplate required in creating a small npm module.
