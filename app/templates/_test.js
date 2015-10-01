@@ -1,11 +1,10 @@
 'use strict'
 
-var assert = require('assert')
+var test = require('tape')
 var <%= camelizedPackageName %> = require('..')
 
-describe('<%= packageName %>', function() {
+test('<%= packageName %>', function (t) {
+  t.plan(1)
 
-  it('should do something awesome', function() {
-    assert.equal(<%= camelizedPackageName %>(), true)
-  })
+  t.equal(<%= camelizedPackageName %>(), true)
 })
