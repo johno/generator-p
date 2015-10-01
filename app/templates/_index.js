@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
 module.exports = function <%= camelizedPackageName %>(options) {
-  options = options || {};
+  options = options || {}
 
-  return true;
-};
+  return true
+}

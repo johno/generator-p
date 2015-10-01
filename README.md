@@ -1,4 +1,4 @@
-# generator-p [![Build Status](https://secure.travis-ci.org/johnotander/generator-p.png?branch=master)](https://travis-ci.org/johnotander/generator-p)
+# generator-p [![Build Status](https://secure.travis-ci.org/johnotander/generator-p.png?branch=master)](https://travis-ci.org/johnotander/generator-p) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 A minimal yeoman generator for npm packages. This is intended to cut out the majority of
 boilerplate required in creating a small npm module.
@@ -31,9 +31,6 @@ awesome-package/
 ```bash
 npm install -g generator-p
 ```
-
-__Note:__ If you don't have [jshint](https://github.com/jshint/jshint) installed, you will have to
-install it globally with `npm install -g jshint`
 
 ## Usage
 

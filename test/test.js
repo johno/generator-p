@@ -1,10 +1,10 @@
 /*global describe, beforeEach, it*/
-'use strict';
+'use strict'
 
-var path = require('path');
-var assert = require('yeoman-generator').assert;
-var helpers = require('yeoman-generator').test;
-var os = require('os');
+var path = require('path')
+var assert = require('yeoman-generator').assert
+var helpers = require('yeoman-generator').test
+var os = require('os')
 
 describe('p:app', function () {
 
@@ -14,8 +14,8 @@ describe('p:app', function () {
       .withOptions({ 'skip-install': true })
       .withPrompt({
       })
-      .on('end', done);
-  });
+      .on('end', done)
+  })
 
   it('creates the correct files', function () {
 
@@ -27,6 +27,6 @@ describe('p:app', function () {
       'README.md',
       'LICENSE.md',
       'test/test.js'
-    ]);
-  });
-});
+    ])
+  })
+})

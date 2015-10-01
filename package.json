@@ -14,7 +14,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test",
+    "jshint": "standard ."
   },
   "files": [
     "app"
@@ -34,7 +35,8 @@
     "yosay": "^0.3.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^2.3.3",
+    "standard": "^5.3.1"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
