@@ -11,9 +11,9 @@ npm install --save <%= packageName %>
 ## Usage
 
 ```javascript
-var <%= camelizedPackageName %> = require('<%= packageName %>');
+var <%= camelizedPackageName %> = require('<%= packageName %>')
 
-<%= camelizedPackageName %>();  // => true
+<%= camelizedPackageName %>()  // => true
 ```
 
 ## License
