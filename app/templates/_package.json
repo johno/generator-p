@@ -5,11 +5,11 @@
   "version": "0.0.1",
   "main": "index.js",
   "directories": {
-    "test": "test",
-    "jshint": "standard"
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "tape test/test.js | tap-dot",
+    "jshint": "standard"
   },
   "repository": {
     "type": "git",
