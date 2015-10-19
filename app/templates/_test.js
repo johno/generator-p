@@ -1,10 +1,8 @@
-'use strict'
+import test from 'ava'
+import <%= camelizedPackageName %> from './'
 
-var test = require('tape')
-var <%= camelizedPackageName %> = require('..')
-
-test('<%= packageName %>', function (t) {
+test('<%= packageName %> does something awesome', t => {
   t.plan(1)
 
-  t.equal(<%= camelizedPackageName %>(), true)
+  t.true(<%= camelizedPackageName %>())
 })

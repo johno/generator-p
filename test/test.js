@@ -24,9 +24,9 @@ describe('p:app', function () {
       '.editorconfig',
       '.travis.yml',
       'index.js',
-      'README.md',
-      'LICENSE.md',
-      'test/test.js'
+      'readme.md',
+      'license',
+      'test.js'
     ])
   })
 })

@@ -4,9 +4,9 @@
   "author": "<%= name %>",
   "version": "0.1.0",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "tape test/test.js | tap-dot",
     "jshint": "standard"

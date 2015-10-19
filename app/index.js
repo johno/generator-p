@@ -45,13 +45,12 @@ var PGenerator = yeoman.generators.Base.extend({
       this.description = props.description
       this.year = (new Date()).getFullYear()
 
-      this.template('_README.md', 'README.md')
-      this.template('_LICENSE.md', 'LICENSE.md')
+      this.template('_readme.md', 'readme.md')
+      this.template('_license.md', 'license.md')
       this.template('_package.json', 'package.json')
       this.template('_index.js', 'index.js')
 
-      this.dest.mkdir('test')
-      this.template('_test.js', 'test/test.js')
+      this.template('_test.js', 'test.js')
 
       this.src.copy('editorconfig', '.editorconfig')
       this.src.copy('travis.yml', '.travis.yml')
