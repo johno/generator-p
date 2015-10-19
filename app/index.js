@@ -46,7 +46,7 @@ var PGenerator = yeoman.generators.Base.extend({
       this.year = (new Date()).getFullYear()
 
       this.template('_readme.md', 'readme.md')
-      this.template('_license.md', 'license.md')
+      this.template('_license', 'license')
       this.template('_package.json', 'package.json')
       this.template('_index.js', 'index.js')
 
