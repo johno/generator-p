@@ -8,8 +8,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "tape test/test.js | tap-dot",
-    "jshint": "standard"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -25,8 +24,6 @@
   "homepage": "https://github.com/<%= github %>/<%= packageName %>",
   "dependencies": {},
   "devDependencies": {
-    "tape": "*",
-    "tap-dot": "*",
-    "standard": "*"
+    "ava": "*"
   }
 }

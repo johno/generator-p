@@ -1,6 +1,6 @@
 # generator-p [![Build Status](https://secure.travis-ci.org/johnotander/generator-p.png?branch=master)](https://travis-ci.org/johnotander/generator-p) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-A minimal yeoman generator for npm packages. This is intended to cut out the majority of boilerplate required in creating a small npm module.
+A minimal yeoman generator for npm packages. This is intended to cut out the majority of boilerplate required in creating a npm modules.
 
 ## Installation
 
@@ -36,6 +36,8 @@ awesome-package/
   - package.json
   - readme.md
 ```
+
+This generator uses [ava](https://github.com/sindresorhus/ava) for tests and [standard](https://github.com/feross/standard) style.
 
 ## License
 
