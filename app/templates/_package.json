@@ -10,18 +10,9 @@
   "scripts": {
     "test": "ava"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/<%= github %>/<%= packageName %>.git"
-  },
-  "keywords": [
-
-  ],
+  "repository": "<%= github %>/<%= packageName %>",
+  "keywords": [],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/<%= github %>/<%= packageName %>/issues"
-  },
-  "homepage": "https://github.com/<%= github %>/<%= packageName %>",
   "dependencies": {},
   "devDependencies": {
     "ava": "*"
