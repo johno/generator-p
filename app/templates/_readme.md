@@ -1,4 +1,4 @@
-# <%= packageName %> [![Build Status](https://secure.travis-ci.org/<%= github %>/<%= packageName %>.png?branch=master)](https://travis-ci.org/<%= github %>/<%= packageName %>) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# <%= packageName %> [![Build Status](https://secure.travis-ci.org/<%= github %>/<%= packageName %>.svg?branch=master)](https://travis-ci.org/<%= github %>/<%= packageName %>) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 <%= description %>
 
